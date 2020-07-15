@@ -1,0 +1,115 @@
+.as {
+  .footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 40px 0 0 0;
+    background-color: $footer-background;
+    color: #cecece;
+    z-index: 99;
+
+    .small_footer {
+        background: #da5455;
+        display: block;
+        clear: both;
+        padding: 17px 0px;
+        min-height: 56px;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .footer_component {
+      margin-bottom: 40px;
+      text-align: left;
+
+      .component_content {
+        width: 100%;
+        display: block;
+        border-radius: 3px;
+        border: 0;
+        padding: 0;
+
+        h3 {
+          font-size: 18px;
+          color: #fff;
+          line-height: normal;
+          margin-bottom: 20px;
+        }
+
+        .contact_info_list {
+          ul {
+            &.ci_list {
+              li {
+                padding: 15px 0 15px 50px;
+                display: block;
+                border-bottom: 1px solid #353535;
+                line-height: 22px;
+                clear: both;
+
+                &:before{
+                  
+                }
+
+                &:first-child {
+                  border-top: 1px solid #373737;
+                }
+                .circle {
+                  background: #191919;
+                  padding-top: 0;
+                  width: 32px;
+                  height: 32px;
+                  line-height: 32px;
+                  border-radius: 100px;
+                  margin-left: -45px;
+                  margin-right: 12px;
+                  text-align: center;
+                  display: inline-block;
+                  margin-top: 7px;
+                  opacity: 0.7;
+                  position: relative;
+                  top: 10px;
+                }
+
+                a {
+                  &:hover {
+                    color: #da5455; 
+                  }
+                }
+              }
+            }
+          }
+        }
+
+        .more_info_list {
+          ul {
+              li {
+                display: block;
+                border-bottom: 1px solid #353535;
+                clear: both;
+                padding: 11px 20px 11px 0;
+                list-style: disc;               
+
+                &:first-child {
+                  border-top: 1px solid #373737;
+                }
+
+                a {
+                  &:hover {
+                    color: #da5455; 
+                  }
+                }
+              }
+          }
+        }
+
+      }
+    }
+
+    .list-inline-item {
+      &:not(:last-child) {
+        margin-right: 0.7rem;
+      }
+    }
+  }
+}

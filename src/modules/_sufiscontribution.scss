@@ -1,0 +1,43 @@
+.as {
+  article {
+    font-size: 15px;
+    text-align: justify;
+  }
+
+  .sufis_group {
+    .shadow-sm {
+      overflow: hidden;
+    }
+
+    img {
+      max-width: 350px; 
+      max-height: 545px;      
+    }
+
+    .imgEffect {
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      transition: transform .3s;
+
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+
+    .sc_group_info {
+      .sc_group_header {
+          .sc_group_title {
+            font-size: 1.14rem;
+            font-weight: 600;
+          }
+          .sc_group_subtitle {
+            font-weight: 700;
+            color: #da5455;
+          }
+      }
+    }
+
+  }
+  
+}

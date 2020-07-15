@@ -1,0 +1,55 @@
+/*
+    Aumkar Sadhana Website Sass Theme
+    Author: Vaishali Kambli
+    Version: 0.0.1
+*/
+
+/* BASE - Base styles, variables, mixins, etc */
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import '../node_modules/@fortawesome/fontawesome-svg-core/styles.css';
+
+//@import 'base/fonts';
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/normalize';
+@import 'base/base';
+
+/* MODULES - Individual site components */
+
+@import 'modules/typography';
+@import 'modules/blocks';
+@import 'modules/buttons';
+@import 'modules/sections';
+@import 'modules/components';
+//@import 'modules/sufiscontribution';
+
+
+/* LAYOUTS - Page layout styles */
+
+@import 'layouts/nav';
+@import 'layouts/header';
+@import 'layouts/footer';
+
+
+
+
+
+// .container {
+// 	max-width: 1100px;
+// 	margin: 0 auto;
+// 	padding: 0 20px;
+// 	overflow: auto;
+// 	display: flex;
+// 	flex-direction: column;
+// 	align-items: center;
+// 	justify-content: center;
+// 	height: 100vh;
+// }
+
+// header {
+// 	text-align: center;
+// 	margin-bottom: 40px;
+// 	background: rgba(0, 0, 0, 0.3);
+// 	padding: 30px;
+// 	border-bottom: 5px #fff solid;
+// }
