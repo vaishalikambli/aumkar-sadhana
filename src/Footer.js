@@ -18,7 +18,7 @@ function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="row">
-          <div className="col-xl-4 col-md-6 col-sm-12">
+          <div className="col-xl-4 col-sm-12">
             <div className="footer_component">
               <div className="component_content">
                 <h3>Contact Info</h3>
@@ -28,7 +28,11 @@ function Footer() {
                       <span className="circle">
                         <FontAwesomeIcon icon={faMapMarkerAlt} />
                       </span>
-                      <a href="https://goo.gl/maps/637cdRkMRZYJp4iUA" rel="noopener noreferrer" target="_blank">
+                      <a
+                        href="https://goo.gl/maps/637cdRkMRZYJp4iUA"
+                        rel="noopener noreferrer"
+                        target="_blank"
+                      >
                         4205 Shipp Dr, Unit 2609, <br /> Mississauga - L4Z 2Y9
                       </a>
                     </li>
@@ -62,7 +66,7 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="col-xl-4 col-md-6 col-sm-12">
+          <div className="col-xl-4 col-sm-12">
             <div className="footer_component">
               <div className="component_content">
                 <h3>More Info</h3>
@@ -90,6 +94,70 @@ function Footer() {
                       <a href="#!">Photos</a>
                     </li>
                   </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="col-xl-4 col-sm-12">
+            <div className="footer_component">
+              <div className="component_content">
+                <h3>Upcoming Events</h3>
+                <div className="more_info_list">
+                  <div className="contact_info_list">
+                    <ul className="recent_event">
+                      <li>
+                        <div class="recent_event_date">
+                          <a href="#!" target="_self">
+                            20<span class="e_month">Jul</span>
+                            <span class="e_year">2020</span>
+                          </a>
+                        </div>
+                        <div class="recent_event_content">
+                          <div class="recent_event_title">
+                            Amavasya Anusthan
+                          </div>
+                          <p>
+                            Please do Anushthan vidhi on Pratimas as per given
+                            dates on amavasya and purnima
+                          </p>
+                        </div>
+                        <div class="clear"></div>
+                      </li>
+                      <li>
+                        <div class="recent_event_date">
+                          <a href="#!" target="_self">
+                            Daily<span class="e_month">Jul</span>
+                            <span class="e_year">2020</span>
+                          </a>
+                        </div>
+                        <div class="recent_event_content">
+                          <div class="recent_event_title">
+                            Daily Aumkar Sadhana
+                          </div>
+                          <p>
+                            Mon-Sun: Canadian time 7.00 am
+                            <br />
+                            Indian time 4.30 pm
+                            <br />
+                            Location: At home
+                            <br />
+                            Meeting Details: <a
+                              className="btn-primary-link"
+                              href="https://us02web.zoom.us/j/89052550773?pwd=MWN0TkpMbXJMVlhZcWhPcVBjZlVGUT09"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                            >Click here
+                            </a>
+                            <br />
+                            Meeting ID: 890 5255 0773
+                            <br />
+                            Password: aumkar
+                          </p>
+                        </div>
+                        <div class="clear"></div>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
             </div>

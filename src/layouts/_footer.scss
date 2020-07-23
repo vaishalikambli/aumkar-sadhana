@@ -101,8 +101,57 @@
                 }
               }
           }
-        }
 
+          .recent_event_date {
+            height: 86px;
+            width: 52px;
+            float: left;
+            text-align: center;
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
+            padding-top: 12px;
+            border-radius: 3px;
+            overflow: hidden;
+            background: #ededed;
+            color: #666;
+            line-height: 22px;
+            text-decoration: none;
+            margin: 0;
+
+            .e_month {
+              display: block;
+              font-size: 11px;
+              text-transform: uppercase;
+              margin-top: 0px;
+              margin-bottom: 4px;
+            }
+
+            .e_year {
+              color: #fff;
+              width: 100%;
+              height: 26px;
+              display: block;
+              background: #da5455;
+              font-size: 11px;
+              font-weight: normal;
+              margin: 0;
+              line-height: 26px;
+              border-radius: 0 0 3px 3px;
+            }
+          }
+
+          .recent_event_content {
+            margin-left: 70px;
+
+            .recent_event_title {
+              color: #da5455;
+              font-size: 14px;
+              margin: 0 0 2px 0;
+              font-weight: bold;
+            }
+          }
+        }
       }
     }
 

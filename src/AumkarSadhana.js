@@ -1,8 +1,6 @@
 import React from "react";
 import "./modules/_sufiscontribution.scss";
 
-import { NavLink } from "react-router-dom";
-
 function AumkarSadhana() {
   return (
     <main className="vibhuti_sec">

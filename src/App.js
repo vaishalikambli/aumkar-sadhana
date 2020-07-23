@@ -10,7 +10,7 @@ import AumkarSadhana from "./AumkarSadhana";
 import Kamkaj from "./Kamkaj";
 import SufiHajiMalangBaba from "./SufiHajiMalangBaba";
 import SufiMohammadJilanibaba from "./MohammadJilanibaba";
-import SufiAjmerSharif from "./sufiajmersharif";
+import SufiAjmerSharif from "./SufiAjmerSharif";
 import SufiBandeNawaz from "./SufiBandeNawaz";
 import SufiSalimChishti from "./SufiSalimChishti";
 import SufiQutbuddinBaba from "./SufiQutbuddinBaba";

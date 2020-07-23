@@ -133,15 +133,18 @@ header {
       font-weight: 600;
       text-transform: uppercase;
     }
+  }
 
-    .btn-primary-link {
-      font-weight: 700;
-      color: #da5455;
-      text-decoration: none;
+  .btn-primary-link {
+    font-weight: 700;
+    color: #da5455;
+    text-decoration: none;
+
+    &:hover {
       border-bottom: 2px solid #da5455;
     }
   }
-
+  
   .scrollToTop {
     position: fixed;
     right: 8px;
@@ -181,6 +184,9 @@ header {
 }
 
 @media (max-width: 1200px) {
+  body {
+    padding-bottom: 79rem;
+}
   .as {
     .main_section {
       position: relative;
@@ -222,7 +228,7 @@ header {
 @media (max-width: 767px) {
 
   body {
-    padding-bottom: 62rem;
+    padding-bottom: 83rem;
   }
 
   .as {
@@ -268,7 +274,4 @@ header {
   //   }
   // }
   
-}
-
-@media (min-width: 576px) {
 }
