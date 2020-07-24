@@ -108,13 +108,13 @@ function Footer() {
                       <li>
                         <div class="recent_event_date">
                           <a href="#!" target="_self">
-                            20<span class="e_month">Jul</span>
+                            3<span class="e_month">Aug</span>
                             <span class="e_year">2020</span>
                           </a>
                         </div>
                         <div class="recent_event_content">
                           <div class="recent_event_title">
-                            Amavasya Anusthan
+                            Purnima Anusthan
                           </div>
                           <p>
                             Please do Anushthan vidhi on Pratimas as per given
