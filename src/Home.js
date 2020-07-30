@@ -19,9 +19,7 @@ function Home() {
             </div>
             <div className="card-body p-4">
               <h4 className="mb-3">Revered Dada</h4>
-              <p>
-                Revered Dada Bhagwat - (1921 - 1991)
-              </p>
+              <p>Revered Dada Bhagwat - (1921 - 1991)</p>
               <NavLink to="/establishment" activeClassName="btn-primary-link">
                 <span className="btn-primary-link">Read more</span>
               </NavLink>

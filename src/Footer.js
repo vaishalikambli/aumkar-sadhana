@@ -40,7 +40,8 @@ function Footer() {
                       <span className="circle">
                         <FontAwesomeIcon icon={faPhoneAlt} />
                       </span>
-                      Phone: (416) 828 4464 <br /> Fax: (416) 828 4464
+                      Phone: <a href="tel:+14168284464">(416) 828 4464</a>{" "}
+                      <br /> Fax: (416) 828 4464
                     </li>
                     <li>
                       <span className="circle">
@@ -113,9 +114,7 @@ function Footer() {
                           </a>
                         </div>
                         <div class="recent_event_content">
-                          <div class="recent_event_title">
-                            Purnima Anusthan
-                          </div>
+                          <div class="recent_event_title">Purnima Anusthan</div>
                           <p>
                             Please do Anushthan vidhi on Pratimas as per given
                             dates on amavasya and purnima
@@ -141,12 +140,14 @@ function Footer() {
                             <br />
                             Location: At home
                             <br />
-                            Meeting Details: <a
+                            Meeting Details:{" "}
+                            <a
                               className="btn-primary-link"
                               href="https://us02web.zoom.us/j/89052550773?pwd=MWN0TkpMbXJMVlhZcWhPcVBjZlVGUT09"
                               target="_blank"
                               rel="noopener noreferrer"
-                            >Click here
+                            >
+                              Click here
                             </a>
                             <br />
                             Meeting ID: 890 5255 0773

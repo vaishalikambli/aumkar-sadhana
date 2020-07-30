@@ -1,8 +1,6 @@
 import React from "react";
 
 import "./modules/_sufiscontribution.scss";
-
-import { NavLink } from "react-router-dom";
 import SufiPlaceholder from "./SufiPlaceholder";
 
 function SufisContribution() {

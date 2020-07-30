@@ -1,5 +1,6 @@
 {
   "name": "aumkar-sadhana",
+  "homepage": "http://aumkarsadhana.online/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
