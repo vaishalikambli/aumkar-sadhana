@@ -107,55 +107,46 @@ function Footer() {
                   <div className="contact_info_list">
                     <ul className="recent_event">
                       <li>
-                        <div class="recent_event_date">
+                        <div className="recent_event_date">
                           <a href="#!" target="_self">
-                            3<span class="e_month">Aug</span>
-                            <span class="e_year">2020</span>
+                            2<span className="e_month">Sep</span>
+                            <span className="e_year">2020</span>
                           </a>
                         </div>
-                        <div class="recent_event_content">
-                          <div class="recent_event_title">Purnima Anusthan</div>
+                        <div className="recent_event_content">
+                          <div className="recent_event_title">Purnima Anusthan</div>
                           <p>
                             Please do Anushthan vidhi on Pratimas as per given
                             dates on amavasya and purnima
                           </p>
                         </div>
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                       </li>
                       <li>
-                        <div class="recent_event_date">
+                        <div className="recent_event_date">
                           <a href="#!" target="_self">
-                            Daily<span class="e_month">Jul</span>
-                            <span class="e_year">2020</span>
+                            Daily<span className="e_month">Aug</span>
+                            <span className="e_year">2020</span>
                           </a>
                         </div>
-                        <div class="recent_event_content">
-                          <div class="recent_event_title">
+                        <div className="recent_event_content">
+                          <div className="recent_event_title">
                             Daily Aumkar Sadhana
                           </div>
                           <p>
-                            Mon-Sun: Canadian time 7.00 am
+                            Everyday: Canadian time 7.00 pm
                             <br />
-                            Indian time 4.30 pm
-                            <br />
-                            Location: At home
-                            <br />
-                            Meeting Details:{" "}
+                            Meeting Details: 
                             <a
                               className="btn-primary-link"
-                              href="https://us02web.zoom.us/j/89052550773?pwd=MWN0TkpMbXJMVlhZcWhPcVBjZlVGUT09"
+                              href="https://meet.google.com/dde-wnvt-sye"
                               target="_blank"
                               rel="noopener noreferrer"
-                            >
-                              Click here
+                            > Click here
                             </a>
-                            <br />
-                            Meeting ID: 890 5255 0773
-                            <br />
-                            Password: aumkar
                           </p>
                         </div>
-                        <div class="clear"></div>
+                        <div className="clear"></div>
                       </li>
                     </ul>
                   </div>
@@ -182,7 +173,7 @@ function Footer() {
                     rel="noopener noreferrer"
                     target="_blank"
                     className="text-gray-350"
-                    title="WhatsApp"
+                    title="Join WhatsApp Group"
                   >
                     <FontAwesomeIcon icon={["fab", "whatsapp"]} />
                   </a>

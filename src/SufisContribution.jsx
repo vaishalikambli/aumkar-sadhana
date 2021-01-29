@@ -19,18 +19,18 @@ function SufisContribution() {
             sufiTitle="Mohammad Jilanibaba"
             sufiLocation="Baghdad, Iraq"
             imgPath={require("../src/img/Mohammad_Jilani_Baba.png")}
+          ></SufiPlaceholder>          
+          <SufiPlaceholder
+            pageLink="/sufibandenawaz"
+            sufiTitle="Khwaja Bande Nawaz Baba"
+            sufiLocation="Gulbarga, India"
+            imgPath={require("../src/img/Khwaja_Bande_Nawaz.png")}
           ></SufiPlaceholder>
           <SufiPlaceholder
             pageLink="/sufiajmersharif"
             sufiTitle="Ajmer Sharif Baba"
             sufiLocation="Ajmer, India"
             imgPath={require("../src/img/Ajmer_Sharif_Baba.png")}
-          ></SufiPlaceholder>
-          <SufiPlaceholder
-            pageLink="/sufibandenawaz"
-            sufiTitle="Khwaja Bande Nawaz Baba"
-            sufiLocation="Gulbarga, India"
-            imgPath={require("../src/img/Khwaja_Bande_Nawaz.png")}
           ></SufiPlaceholder>
           <SufiPlaceholder
             pageLink="/sufisalimchishti"

@@ -55,9 +55,9 @@
     .navbar-brand {
       color: $navbar-light-brand-color;
 
-      @include hover-focus() {
+     // @include hover-focus() {
         //   color: $navbar-light-brand-hover-color;
-      }
+//}
     }
 
     .navbar-nav {
@@ -69,9 +69,9 @@
         color: $navbar-light-color;
         padding: 0;
 
-        @include hover-focus() {
+        //@include hover-focus() {
           //color: $navbar-light-hover-color;
-        }
+        //}
 
         &.disabled {
           color: $navbar-light-disabled-color;

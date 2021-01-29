@@ -7,6 +7,7 @@
   .sufis_group {
     .shadow-sm {
       overflow: hidden;
+      transition: transform .3s;
     }
 
     img {
@@ -18,11 +19,15 @@
       background-size: cover;
       background-position: center;
       position: relative;
-      transition: transform .3s;
 
       &:hover {
-        transform: scale(1.1);
+               transform: scale(1.1);
+              -o-box-shadow:0 4px 8px rgba(0,0,0,.3),0 0 0 transparent;
+              box-shadow:0 4px 8px rgba(0,0,0,.3),0 0 0 transparent;
+              transform:translateY(10px);
+
       }
+      
     }
 
     .sc_group_info {
