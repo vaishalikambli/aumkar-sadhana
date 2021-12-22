@@ -8,7 +8,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
   faOm,
-  faPhoneAlt,
+  //faPhoneAlt,
   faEnvelope,
   faChevronUp,
   faChevronCircleDown,
@@ -56,12 +56,12 @@ function App() {
                 </div>
                 <div className="info_section">
                   <ul>
-                    <li>
+                    {/* <li>
                       <FontAwesomeIcon icon={faPhoneAlt} />
                       <span className="ml-2">
-                        Call: <a href="tel:+14168284464">(416) 828 4464</a>
+                        Call: <a href="tel:+11111111111">(111) 111 1111</a>
                       </span>
-                    </li>
+                    </li> */}
                     <li>
                       <a href="mailto:info@aumkarsadhana.org">
                         <FontAwesomeIcon icon={faEnvelope} />

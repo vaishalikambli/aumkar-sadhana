@@ -4,10 +4,10 @@ import "./App.scss";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import { fab } from "@fortawesome/free-brands-svg-icons";
 import {
-  faMapMarkerAlt,
-  faPhoneAlt,
-  faEnvelope,
-  faClock,
+  // faMapMarkerAlt,
+  // faPhoneAlt,
+  //faClock,
+  faEnvelope
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -24,25 +24,24 @@ function Footer() {
                 <h3>Contact Info</h3>
                 <div className="contact_info_list">
                   <ul className="ci_list">
-                    <li>
+                    {/* <li>
                       <span className="circle">
                         <FontAwesomeIcon icon={faMapMarkerAlt} />
                       </span>
                       <a
-                        href="https://goo.gl/maps/637cdRkMRZYJp4iUA"
+                        href=""
                         rel="noopener noreferrer"
                         target="_blank"
-                      >
-                        4205 Shipp Dr, Unit 2609, <br /> Mississauga - L4Z 2Y9
+                      >                        
                       </a>
                     </li>
                     <li>
                       <span className="circle">
                         <FontAwesomeIcon icon={faPhoneAlt} />
                       </span>
-                      Phone: <a href="tel:+14168284464">(416) 828 4464</a>{" "}
-                      <br /> Fax: (416) 828 4464
-                    </li>
+                      Phone: <a href="tel:+16677889900">(667) 788 9900</a>
+                      <br /> Fax: (667) 788 9900
+                    </li> */}
                     <li>
                       <span className="circle">
                         <FontAwesomeIcon icon={faEnvelope} />
@@ -55,13 +54,13 @@ function Footer() {
                         info@aumkarsadhana.org
                       </a>
                     </li>
-                    <li>
+                    {/* <li>
                       <span className="circle">
                         <FontAwesomeIcon icon={faClock} />
                       </span>
                       Mon-Fri: 7:00 pm - 9:00 pm <br /> Sat-Sun: 10:00 am -
                       12:00 pm
-                    </li>
+                    </li> */}
                   </ul>
                 </div>
               </div>
@@ -106,7 +105,7 @@ function Footer() {
                 <div className="more_info_list">
                   <div className="contact_info_list">
                     <ul className="recent_event">
-                      <li>
+                      {/* <li>
                         <div className="recent_event_date">
                           <a href="#!" target="_self">
                             2<span className="e_month">Sep</span>
@@ -147,7 +146,7 @@ function Footer() {
                           </p>
                         </div>
                         <div className="clear"></div>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </div>

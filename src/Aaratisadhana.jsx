@@ -7,7 +7,7 @@ function AaratiSadhana() {
   return (
     <main className="vibhuti_sec">
       <div className="container sufis_group">
-        <div className="container-lg">
+        {/* <div className="container-lg">
           <table
             data-toggle="table"
             data-search="true" 
@@ -53,7 +53,7 @@ function AaratiSadhana() {
               </tr>
             </tbody>
           </table>
-        </div>
+        </div> */}
       </div>
     </main>
   );
